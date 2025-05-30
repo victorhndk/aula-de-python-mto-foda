@@ -5,15 +5,17 @@ operacao = int(input('Escolha a operação: 1 - Adiçao, 2 - Divisao, 3 - Multip
 if operacao == 1:
     resultado = valor1 + valor2
     print('O resultdo é: ', resultado)
-if operacao == 2:
+elif operacao == 2:
     resultado2 = valor1 - valor2
     print('O resultado é: ', resultado2)
-if operacao == 3:
+elif operacao == 3:
     resultado3 = valor1 * valor2
     print('O resultdo é: ', resultado3)
-if operacao == 4:
+elif operacao == 4:
     resultado4 = valor1 / valor2
     print('O resultdo é: ', resultado4)
+else:
+    print('Operação Inválida')
 
 
     

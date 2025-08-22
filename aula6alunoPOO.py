@@ -1,23 +1,22 @@
 class aluno:
-    
     def __init__(self, nome, idade, matricula, materia):
         self.nome = nome
         self.idade = idade
         self.matricula = matricula
         self.materia = materia
-    
-    def apresent():
+        
+    def apresent(self):
         print(f"Olá, meu nome é {self.nome} e tenho {self.idade} anos.")
         
-    def estudar(materia):
-        print(f"Estou estudando {materia}.")
+    def estuda(self):   
+        print(f"Estou estudando {self.materia}")
+        
+pessoa = Aluno("marcelo", "17", "242424", "em como ser um desgraçado")      
+pessoa_dois = Aluno("felipinho", "17", "242324", "variola")    
 
-pedro = aluno("Pedro", "19", "566565", "Matemática")
-fabricia = aluno("Fabricia", "18", "75756575", "Literatura")
-
-print(pedro.matricula)    
-pedro.apresent()
-pedro.estudar()
-print(fabricia.matricula) 
-fabricia.apresent()
-pedro.estudar()
+print(pessoaum.matricula)
+pessoaum.apresentar()
+pessoaum.estudar()
+print(pessoadois.matricula)
+pessoadois.apresentar()
+pessoadois.estudar()
